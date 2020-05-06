@@ -42,6 +42,7 @@ section {
 	margin: 10vh 0;
 }
 
+
 h1 {
 	margin-bottom: 5vh;
 	text-transform: uppercase;
@@ -68,6 +69,7 @@ h3 {
 	font-size: 80px;
 	text-transform: lowercase;
 }
+
 
 p {
 	font-family: firaMonoRegular;
@@ -136,6 +138,7 @@ p {
 	font-size: 20px;
 	text-transform: lowercase;
 	z-index: 1000;
+	opacity: .8;
 }
 
 #weddingImage {
@@ -184,6 +187,7 @@ p {
 	transform: translate(305px, 475px);
 	font-size: 20px;
 	text-transform: lowercase;
+	opacity: .8;
 }
 
 /*Clients & Testemonials*/
