@@ -12,6 +12,9 @@
 	<link href="css/styles.css" type="text/css" rel="stylesheet">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+	  
   </head>
 	
   <body>
@@ -24,14 +27,14 @@
 	
 		  
 		 <img src="images/LogoSVG.svg" alt="Logo" id="headerLogo">
-		  <a href="#sectionWhoWeAre"><i class="fas fa-angle-down" id="headerArrow"></i></a>
+		  <a href="#mainId"><i class="fas fa-angle-down" id="headerArrow"></i></a>
 		 
 	  </header>
-	<main>
+	<main id="mainId">
 	  
 
 	  <!-- Who We Are-->
-	  <section class="container text-center" id="sectionWhoWeAre">
+	  <section class="container text-center wow fadeIn slow" id="sectionWhoWeAre">
 	    <h2>Who We Are</h2>
 		<p class="col-8 offset-2">
 		  Wir sind Simeon Wälti und Patrick Diener, zwei junge Künstler aus Zürich. Simeon arbeitet Hauptberuflich als Primarlehrperson, seine grosse Leidenschaft gilt jedoch der Fotografie
@@ -44,28 +47,30 @@
 	  	  <h2 class="sectionTitle">What We Do</h2>
 		  
 		  <div class="card-columns">
-			  <div class="card">
+			<a href="wedding.html" target="_self">
+			  <div class="card wow fadeIn slow" id="weddingCard">
 				  	<h3 id="weddingTitle">Wedding</h3>
-				    <p id="weddingDesc">Photography & Videography</p>
- 					<img class="img-fluid" src="images/DSC_9219-edited.jpg" alt="img">
-				    
+				    <p id="weddingDesc">Photography &amp; Videography</p>
+ 					<img id="weddingImage" class="img-fluid" src="images/DSC_9219-edited.jpg" alt="img">
+				  
 			  </div>
+			</a>
 			  
-			  <div class="card">
+			  <div class="card wow fadeIn slow">
 				  	<h3 id="eventTitle">Event</h3>
-				    <p id="eventDesc">Photography & Videography</p>
+				    <p id="eventDesc">Photography &amp; Videography</p>
 			  		<img class="img-fluid" src="images/_DSC3858.jpg" alt="img">
 				    
 			  </div>
 			  
-			  <div class="card">
+			  <div class="card wow fadeIn slow delay-1">
 				  	<h3 id="concertTitle">Concert</h3>
-				    <p id="concertDesc">Photography & Videography</p>
+				    <p id="concertDesc">Photography &amp; Videography</p>
 			  		<img class="img-fluid" src="images/_DSC3858.jpg" alt="img">
 				    
 			  </div>
 			  
-			  <div class="card">
+			  <div class="card wow fadeIn slow">
 				  	<h3 id="fashionTitle">fashion</h3>
 				    <p id="fashionDesc">Photography</p>
  					<img class="img-fluid" src="images/DSC_5230.jpg" alt="img">
@@ -93,15 +98,15 @@
     			</div>
 				
     			<div class="col-sm d-flex">
-      				<img class="clientLogo mx-auto" src="images/Logos/paarLogo.png" alt="img">
+    				<img class="clientLogo mx-auto" src="images/Logos/swisscomLogo.png" alt="img">
     			</div>
 				
 				<div class="col-sm d-flex">
       				<img class="clientLogo mx-auto" src="images/Logos/trlLogo.png" alt="img">
     			</div>
-				
-    			<div class="col-sm d-flex">
-    				<img class="clientLogo mx-auto" src="images/Logos/swisscomLogo.png" alt="img">
+    			
+				<div class="col-sm d-flex">
+      				<img class="clientLogo mx-auto" src="images/Logos/paarLogo.png" alt="img">
     			</div>
 				
  			</div>
@@ -119,6 +124,15 @@
 		
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
     <script src="js/jquery-3.4.1.min.js"></script>
+	  
+	<!-- Script -->
+	<script src="js/script.js"></script>
+	  
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+	<script type="text/javascript">$( document ).ready(function() {
+  new WOW().init();
+});</script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
     <script src="js/popper.min.js"></script>

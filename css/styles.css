@@ -12,6 +12,7 @@
 body {
 	background-color: #1E1E1E;
 	color: white;
+	overflow-x: hidden;
 }
 
 main {
@@ -30,7 +31,7 @@ i:hover {
 }
 
 a {
-	color: white;
+	color: white !important;
 }
 
 a:hover {
@@ -112,8 +113,9 @@ p {
 
 .card {
 	background-color: transparent;
-	border: 0;
+	border: 0 !important;
 	padding: 40px 40px;
+	box-shadow: 0 0 0 0 transparent !important; 
 }
 
 .card-columns {
@@ -125,21 +127,27 @@ p {
 	transform: translate(-70px, 80px);
 	font-size: 60px;
 	text-transform: lowercase;
+	z-index: 1000;
 }
 
 #weddingDesc {
 	position: absolute;
-	transform: translate(-70px, 145px);
+	transform: translate(-70px, 150px);
 	font-size: 20px;
 	text-transform: lowercase;
+	z-index: 1000;
 }
 
+#weddingImage {
+	z-index: -2;
+}
 
 #concertTitle {
 	position: absolute;
 	transform: translate(305px, 350px);
 	font-size: 60px;
 	text-transform: lowercase;
+	z-index: 1000;
 }
 
 #concertDesc {
@@ -185,7 +193,7 @@ p {
 	
 	background-color: #2D2D2D;
 	width: 100vw;
-	padding: 60px 0px;
+	padding: 60px 40px;
 
 }
 
