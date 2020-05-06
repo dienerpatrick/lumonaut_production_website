@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: gilroyExtraBold;
+	src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+@font-face {
+	font-family: firaMonoRegular;
+	src: url("../fonts/FiraMono-Regular.otf");
+}
+body {
+	background-color: #1E1E1E;
+	color: white;
+}
+
+main {
+	background-color: #1E1E1E;
+	top: 100vh;
+	position: absolute;
+	width: 100vw;
+}
+
+i { 
+	transition: transform .3s; /* Animation */ 
+}
+
+i:hover { 
+	transform: scale(1.2); 
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+section {
+	margin: 10vh 0;
+}
+
+h1 {
+	margin-bottom: 5vh;
+	text-transform: uppercase;
+	font-family: gilroyExtraBold;
+	letter-spacing: 7px;
+}
+	
+h2 {
+	margin-bottom: 5vh;
+	text-transform: uppercase;
+	font-family: gilroyExtraBold;
+	letter-spacing: 7px;
+}
+
+h3 {
+	margin-bottom: 5vh;
+	text-transform: uppercase;
+	font-family: gilroyExtraBold;
+	letter-spacing: 3px;
+	
+}
+
+.sectionTitle{
+	font-size: 80px;
+	text-transform: lowercase;
+}
+
+p {
+	font-family: firaMonoRegular;
+}
+#pageHeader {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/DSC_8940-Bearbeitet-edited.png");
+	
+}
+
+#headerVideo {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#headerLogo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30%;
+	transform: translate(-50%, -50%)
+}
+#headerArrow{
+	position: absolute;
+	top: 87%;
+	left: 50%;
+	font-size: 30px;
+	transform: translate(-50%, -50%)
+}
+
+/* What We Do Section */
+
+.card {
+	background-color: transparent;
+	border: 0;
+	padding: 40px 40px;
+}
+
+.card-columns {
+    column-count: 2;
+  }
+
+#weddingTitle {
+	position: absolute;
+	transform: translate(-70px, 80px);
+	font-size: 60px;
+	text-transform: lowercase;
+}
+
+#weddingDesc {
+	position: absolute;
+	transform: translate(-70px, 145px);
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+
+#concertTitle {
+	position: absolute;
+	transform: translate(305px, 350px);
+	font-size: 60px;
+	text-transform: lowercase;
+}
+
+#concertDesc {
+	position: absolute;
+	transform: translate(305px, 415px);
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+#eventTitle {
+	position: absolute;
+	transform: translate(-70px, 80px);
+	font-size: 60px;
+	text-transform: lowercase;
+}
+
+#eventDesc {
+	position: absolute;
+	transform: translate(-70px, 145px);
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+
+#fashionTitle {
+	position: absolute;
+	transform: translate(305px, 410px);
+	font-size: 60px;
+	text-transform: lowercase;
+}
+
+#fashionDesc {
+	position: absolute;
+	transform: translate(305px, 475px);
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+/*Clients & Testemonials*/
+
+
+#logoRow {
+	
+	background-color: #2D2D2D;
+	width: 100vw;
+	padding: 60px 0px;
+
+}
+
+#logoRowContainer {
+
+	margin: 0px 0px;
+
+}
+
+.clientLogo {
+	max-width: 60%;
+  	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
