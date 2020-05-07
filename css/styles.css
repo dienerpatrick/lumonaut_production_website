@@ -65,15 +65,27 @@ h3 {
 	
 }
 
+p {
+	font-family: firaMonoRegular;
+}
+
 .sectionTitle{
 	font-size: 80px;
 	text-transform: lowercase;
 }
 
 
-p {
-	font-family: firaMonoRegular;
+.centerTextBox {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -100px;
 }
+
+
 #pageHeader {
 	position: absolute;
 	width: 100vw;
@@ -101,7 +113,7 @@ p {
 	top: 50%;
 	left: 50%;
 	width: 30%;
-	transform: translate(-50%, -50%)
+	transform: translate(-50%, -50%);
 }
 #headerArrow{
 	position: absolute;
@@ -109,6 +121,18 @@ p {
 	left: 50%;
 	font-size: 30px;
 	transform: translate(-50%, -50%)
+}
+
+/*Who We Are Section*/
+
+#sectionWhoWeAre{
+	height: 100vh;
+	vertical-align: middle;
+}
+
+#textWhoWeAre{
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 /* What We Do Section */
