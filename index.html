@@ -14,6 +14,8 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 	<!-- Material Design Bootstrap -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+	<!--Animate On Scroll Library-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	  
   </head>
 	
@@ -35,13 +37,13 @@
 
 	  <!-- Who We Are-->
 		
-	  <section class="container text-center wow fadeIn slow" id="sectionWhoWeAre">
-	   <div class="my-auto">
+	  <section class="container text-center" id="sectionWhoWeAre">
+	   <div class="centerTextBox">
 		<div contenteditable>
-	   		 <h2 class="sectionTitle">Who We Are<span style="color: aquamarine">.</span></h2>
+	   		 <h2 data-aos="fade-up" class="sectionTitle">Who We Are<span style="color: aquamarine">.</span></h2>
 		</div>
-			 <p class="col-8 offset-2">
-		  		Ein gebürtiger Thurgauer und ein Züri Oberländer. Ein Primarlehrer und ein Biologiestudent. Ein guter Schlagzeuger und ein weniger guter Gitarist. Wir sind Simeon und Patrick, zwei junge Freelancer aus Zürich. Verbunden durch die Liebe zur Fotografie und Videografie haben wir uns unter dem Namen Lumonaut Productions zusammengeschlossen, um deine Hochzeit, dein Konzert, euer Business-Event oder die neue Sockenkollektion deiner Grosstante fotografisch und videografisch festzuhalten.
+			 <p data-aos="fade-up" class="col-8 offset-2 sectionFlowtext">
+		  		Ein gebürtiger Thurgauer und ein Züri Oberländer. Ein Primarlehrer und ein Biologiestudent. Ein guter Schlagzeuger und ein weniger guter Gitarist.<br>Wir sind Simeon und Patrick, zwei junge Freelancer aus Zürich. Verbunden durch die Liebe zur Fotografie und Videografie haben wir uns unter dem Namen Lumonaut Productions zusammengeschlossen, um deine Hochzeit, dein Konzert, euer Business-Event oder die neue Sockenkollektion deiner Grosstante fotografisch und videografisch festzuhalten.
 		  	 </p>
 	   </div>
 	  </section>
@@ -51,7 +53,7 @@
 	<!--Title-->
 	  
 	  <section class="container text-center" id="sectionWhatWeDo">
-		  <div contenteditable>
+		  <div contenteditable data-aos="fade-up">
 	   		 <h2 class="sectionTitle">What We Do<span style="color: aquamarine">.</span></h2>
 		  </div>
 		  
@@ -70,29 +72,29 @@
 		<!--Event-->
 			  
 			<a hfref="event.html">
-			  <div class="card wow fadeIn slow">
+			  <div class="card wow fadeIn slow" id="eventCard">
 				  	<h3 id="eventTitle">Event</h3>
 				    <p id="eventDesc">Photography &amp; Videography</p>
-			  		<img class="img-fluid" src="images/_DSC3858.jpg" alt="img">
+			  		<img id="eventImage" class="img-fluid" src="images/_DSC3858.jpg" alt="img">
 				    
 			  </div>
 			</a>
 			  
 		<!--Concert	-->  
 			  
-			  <div class="card wow fadeIn fadeOut slow delay-1">
+			  <div class="card wow fadeIn slow" id="concertCard">
 				  	<h3 id="concertTitle">Concert</h3>
-				    <p id="concertDesc" class="text-muted">Photography &amp; Videography</p>
-			  		<img class="img-fluid" src="images/_DSC3858.jpg" alt="img">
+				    <p id="concertDesc">Photography &amp; Videography</p>
+			  		<img id="concertImage" class="img-fluid" src="images/_DSC3858.jpg" alt="img">
 				    
 			  </div>
 			  
 		<!--Fashion-->
 			  
-			  <div class="card wow fadeIn slow">
+			  <div class="card wow fadeIn slow" id="fashionCard">
 				  	<h3 id="fashionTitle">fashion</h3>
 				    <p id="fashionDesc">Photography</p>
- 					<img class="img-fluid" src="images/DSC_5230.jpg" alt="img">
+ 					<img id="fashionImage" class="img-fluid" src="images/DSC_5230.jpg" alt="img">
 				    
 			  </div>
 				
@@ -108,23 +110,23 @@
 		<div class="container" id="logoRowContainer">
   			<div class="row" id="logoRow">
 				
-    			<div class="col-sm d-flex">
+    			<div data-aos="fade-up" class="col-sm d-flex">
       				<img class="clientLogo mx-auto" src="images/Logos/nicklessLogo.png" alt="img">
     			</div>
 				
-    			<div class="col-sm d-flex">
+    			<div data-aos="fade-up" data-aos-delay="100" class="col-sm d-flex">
     				<img class="clientLogo mx-auto" src="images/Logos/sevenfridayLogo.png" alt="img">
     			</div>
 				
-				<div class="col-sm d-flex">
+				<div data-aos="fade-up" data-aos-delay="200" class="col-sm d-flex">
       				<img class="clientLogo mx-auto" src="images/Logos/trlLogo.png" alt="img">
     			</div>
 				
-    			<div class="col-sm d-flex">
+    			<div data-aos="fade-up" data-aos-delay="300" class="col-sm d-flex">
     				<img class="clientLogo mx-auto" src="images/Logos/swisscomLogo.png" alt="img">
     			</div>
 				
-				<div class="col-sm d-flex">
+				<div data-aos="fade-up" data-aos-delay="400" class="col-sm d-flex">
       				<img class="clientLogo mx-auto" src="images/Logos/paarLogo.png" alt="img">
     			</div>
 				
@@ -152,6 +154,12 @@
 	<script type="text/javascript">$( document ).ready(function() {
   new WOW().init();
 });</script>
+	  
+	<!--AOS JavaScript-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	  <script>
+  			AOS.init();
+	  </script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
     <script src="js/popper.min.js"></script>

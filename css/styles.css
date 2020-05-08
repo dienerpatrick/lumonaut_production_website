@@ -74,15 +74,18 @@ p {
 	text-transform: lowercase;
 }
 
+.sectionFlowtext{
+	font-size: 18px;
+	line-height: 40px;
+}
 
 .centerTextBox {
     position: absolute;
-    width: 500px;
-    height: 300px;
-    top: 50%;
-    left: 50%;
-    margin-top: -250px;
-    margin-left: -100px;
+	width: 1300px;
+    top: 50vh;
+    left: 50vw;
+	transform: translate(-50%, -50%);
+
 }
 
 
@@ -158,7 +161,7 @@ p {
 
 #weddingDesc {
 	position: absolute;
-	transform: translate(-70px, 150px);
+	transform: translate(-70px, 145px);
 	font-size: 20px;
 	text-transform: lowercase;
 	z-index: 1000;
@@ -182,6 +185,8 @@ p {
 	transform: translate(305px, 415px);
 	font-size: 20px;
 	text-transform: lowercase;
+	opacity: .8;
+	z-index: 1000;
 }
 
 #eventTitle {
@@ -189,6 +194,7 @@ p {
 	transform: translate(-70px, 80px);
 	font-size: 60px;
 	text-transform: lowercase;
+	z-index: 1000;
 }
 
 #eventDesc {
@@ -196,6 +202,8 @@ p {
 	transform: translate(-70px, 145px);
 	font-size: 20px;
 	text-transform: lowercase;
+	opacity: .8;
+	z-index: 1000;
 }
 
 
@@ -204,6 +212,7 @@ p {
 	transform: translate(305px, 410px);
 	font-size: 60px;
 	text-transform: lowercase;
+	z-index: 1000;
 }
 
 #fashionDesc {
@@ -212,6 +221,7 @@ p {
 	font-size: 20px;
 	text-transform: lowercase;
 	opacity: .8;
+	z-index: 1000;
 }
 
 /*Clients & Testemonials*/
