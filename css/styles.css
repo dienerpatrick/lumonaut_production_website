@@ -72,6 +72,7 @@ p {
 .sectionTitle{
 	font-size: 80px;
 	text-transform: lowercase;
+	padding-bottom: 40px;
 }
 
 .sectionFlowtext{
@@ -227,11 +228,43 @@ p {
 /*Clients & Testemonials*/
 
 
+.carousel{
+	padding-bottom: 20px;
+	width: 65vw;
+	margin-left: 50vw;
+	transform: translate(-50%, 0%)
+}
+
+
+.testemonialText{
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	margin: 0vw 13vw 0vw 13vw;
+	height: 27vh;
+	font-style: italic;
+}
+
+
+.testemonialAuthor{
+	font-size: 22px;
+	font-family: gilroyExtraBold;
+	text-transform: lowercase;
+	text-align: center;
+	font-style: bold;
+}
+
+
+
+.testemonialButton{
+	transform: translate(0, -20%);
+}
+
 #logoRow {
 	
 	background-color: #2D2D2D;
 	width: 100vw;
-	padding: 60px 40px;
+	padding: 30px 40px;
 
 }
 
